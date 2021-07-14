@@ -84,12 +84,12 @@ nav{
   padding-right: 210px;
   padding-bottom: 165px;
   box-sizing: border-box;
-  width: 1050px;
+  /* width: 1050px; */
  
 }
 .players{ 
     display: grid;
-    grid-template-columns: repeat(3,330px);
+    grid-template-columns: repeat(3,1fr);
     grid-column-gap: 30px;
     grid-row-gap: 27px;  
 }
